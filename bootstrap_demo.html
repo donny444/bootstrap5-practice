@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container fixed-top">
+        <p class="h1 bg-dark text-light">Header</p>
+        <p class="h4">Sub-Header</p>
+    </div>
+
+    <div class="container-fluid">
+        <p class="lead bg-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime illum alias nemo
+            inventore delectus necessitatibus sit laboriosam minus incidunt excepturi optio officiis recusandae qui
+            soluta minima, voluptas distinctio nisi aperiam!</p>
+    </div>
+
+    <div class="sticky-top">
+        <button class="float-start">Float Left</button>
+        <button class="float-end">Float Right</button>
+    </div>
+    <div class="container-fluid mb-auto">
+        <!--Font Weight-->
+        <div class="bg-primary w-75">
+            <p class="fw-bold">Bold</p>
+            <p class="fw-bolder">Bolder</p>
+            <p class="fw-normal">Normal</p>
+            <p class="fw-light">Light</p>
+            <p class="fw-lighter">Lighter</p>
+            <p class="fst-italic">Italic</p>
+        </div>
+
+        <!--Font Case-->
+        <div class="text-center bg-warning w-50">
+            <p class="text-uppercase">Upper Case</p>
+            <p class="text-lowercase">LOWER CASE</p>
+            <p class="text-capitalize">capitalize</p>
+        </div>
+
+        <!--Font Size-->
+        <div class="text-end bg-danger text-dark w-25">
+            <p class="fs-1">fontsize1</p>
+            <p class="fs-2">fontsize2</p>
+            <p class="fs-3">fontsize3</p>
+            <p class="fs-4">fontsize4</p>
+            <p class="fs-5">fontsize5</p>
+            <p class="fs-6">fontsize6</p>
+        </div>
+
+        <!--Block to Inline-->
+        <div class="container">
+            <h6 class="bg-success d-inline">Block</h6>
+            <h6 class="bg-success d-inline">to</h6>
+            <h6 class="bg-success d-inline">Inline</h6>
+        </div>
+
+        <!--Inline to Block-->
+        <div class="container">
+            <span class="bg-secondary d-block">Inline to Block</span>
+        </div>
+
+        <!--Inline-Block-->
+        <div class="container bg-dark text-danger d-inline-block">
+            Hello
+            This is bootstap 5
+        </div>
+        <!--Float & Fixed Postition Responsive-->
+        <div class="clearfix">
+            <img class="float-start" src="WIN_20220625_09_00_11_Pro.jpg">
+            <p>Float Start</p>
+        </div>
+
+        <div>
+            <img class="float-end" src="WIN_20220625_09_00_11_Pro.jpg">
+            <p>Float End</p>
+        </div>
+
+        <div>
+            <img class="float-none" src="WIN_20220625_09_00_11_Pro.jpg">
+            <p>Float None</p>
+        </div>
+
+        <div class="invisible">
+            <h1>You can't see me</h1>
+        </div>
+
+        <div>
+            <h1 class="bg-success mb-0">Margin Bottom 0</h1>
+            <h1 class="bg-success mb-1">Margin Bottom 1</h1>
+            <h1 class="bg-success mb-2">Margin Bottom 2</h1>
+            <h1 class="bg-success mb-3">Margin Bottom 3</h1>
+            <h1 class="bg-success mb-4">Margin Bottom 4</h1>
+            <h1 class="bg-success mb-5">Margin Bottom 5</h1>
+            <h1 class="bg-warning mt-5">Margin Top</h1>
+            <h1 class="bg-warning ms-5">Margin Left</h1>
+            <h1 class="bg-warning me-5">Margin Right</h1>
+        </div>
+
+        <div>
+            <h4 class="pt-4 bg-danger text-light">Padding Top</h4>
+            <h4 class="ps-4 bg-danger text-light">Padding Left</h4>
+            <h4 class="pe-4 text-end bg-danger text-light">Padding Right</h4>
+            <h4 class="pb-4 bg-danger text-light">Padding Bottom</h4>
+            <h4 class="p-auto text-center bg-dark text-danger">Padding Blank</h4>
+        </div>
+
+        <!--Height-->
+        <div style="height: 300px">
+            <p class="bg-secondary h-100">Height 100%</p>
+            <p class="bg-secondary h-75">Height 75%</p>
+            <p class="bg-secondary h-50">Height 50%</p>
+            <p class="bg-secondary h-25">Height 25%</p>
+        </div>
+
+        <!--Border-->
+        <div class="container">
+            <div class="bg-dark text-danger border border-danger">Border</div>
+            <div class="bg-danger text-dark border border-dark rounded">Rounded Border</div>
+        </div>
+    </div>
+</body>
+
+</html>
